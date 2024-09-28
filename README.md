@@ -1,6 +1,3 @@
-Berikut contoh file `README.md` untuk proyek AI Cortex:
-
-```markdown
 # AI Cortex
 
 AI Cortex adalah sebuah framework berbasis kecerdasan buatan yang digunakan untuk mengembangkan dan mengelola sistem AI yang dapat dilatih secara fleksibel. Proyek ini memungkinkan pengguna untuk membuat model AI, melatihnya, dan menggunakan data yang disimpan dalam file JSON untuk menghasilkan prediksi yang lebih baik dari waktu ke waktu.
