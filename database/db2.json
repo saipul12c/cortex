@@ -1,14 +1,1466 @@
 [
     {
-        "question": "What is a variable?",
-        "answer": "A variable is a container for storing data values."
+        "question": "halo?",
+        "answer": "halo juga, ada yang dapat saya bantu tuan?."
     },
     {
-        "question": "What is an array?",
-        "answer": "An array is a data structure that holds multiple values at once."
+        "question": "siapa penciptamu?",
+        "answer": "Saya diciptakan oleh tuan bertama Muhammad Syaiful Mukmin, dan saya dalam tahap pengembangan."
     },
     {
-        "question": "What is a function?",
-        "answer": "A function is a block of code designed to perform a particular task."
+        "question": "hai",
+        "answer": "hai, ada yang dapat saya bantu?."
+    },
+    {
+        "question": "apa kabar?",
+        "answer": "Kabar saya baik, terima kasih! Bagaimana dengan Anda?"
+    },
+    {
+        "question": "apa yang bisa kamu lakukan?",
+        "answer": "Saya bisa membantu menjawab pertanyaan, memberikan informasi, dan membantu tugas-tugas tertentu."
+    },
+    {
+        "question": "terima kasih",
+        "answer": "Sama-sama! Jika ada yang ingin ditanyakan lagi, jangan ragu untuk bertanya."
+    },
+    {
+        "question": "apakah kamu bisa belajar?",
+        "answer": "Ya, saya terus belajar dari interaksi dan umpan balik pengguna."
+    },
+    {
+        "question": "siapa yang menggunakanmu?",
+        "answer": "Saya digunakan oleh banyak orang untuk berbagai keperluan, termasuk belajar dan mencari informasi."
+    },
+    {
+        "question": "apakah kamu tahu tentang cuaca?",
+        "answer": "Ya, saya bisa memberikan informasi cuaca jika Anda memberikan lokasi yang tepat."
+    },
+    {
+        "question": "apa yang kamu ketahui tentang teknologi?",
+        "answer": "Teknologi adalah alat atau metode yang digunakan untuk memecahkan masalah dan meningkatkan efisiensi."
+    },
+        {
+        "question": "halo?",
+        "answer": "halo juga, ada yang dapat saya bantu tuan?."
+    },
+    {
+        "question": "siapa penciptamu?",
+        "answer": "Saya diciptakan oleh tuan bertama Muhammad Syaiful Mukmin, dan saya dalam tahap pengembangan."
+    },
+    {
+        "question": "hai",
+        "answer": "hai, ada yang dapat saya bantu?."
+    },
+    {
+        "question": "apa kabar?",
+        "answer": "Kabar saya baik, terima kasih! Bagaimana dengan Anda?"
+    },
+    {
+        "question": "apa yang bisa kamu lakukan?",
+        "answer": "Saya bisa membantu menjawab pertanyaan, memberikan informasi, dan membantu tugas-tugas tertentu."
+    },
+    {
+        "question": "terima kasih",
+        "answer": "Sama-sama! Jika ada yang ingin ditanyakan lagi, jangan ragu untuk bertanya."
+    },
+    {
+        "question": "apakah kamu bisa belajar?",
+        "answer": "Ya, saya terus belajar dari interaksi dan umpan balik pengguna."
+    },
+    {
+        "question": "siapa yang menggunakanmu?",
+        "answer": "Saya digunakan oleh banyak orang untuk berbagai keperluan, termasuk belajar dan mencari informasi."
+    },
+    {
+        "question": "apakah kamu tahu tentang cuaca?",
+        "answer": "Ya, saya bisa memberikan informasi cuaca jika Anda memberikan lokasi yang tepat."
+    },
+    {
+        "question": "apa yang kamu ketahui tentang teknologi?",
+        "answer": "Teknologi adalah alat atau metode yang digunakan untuk memecahkan masalah dan meningkatkan efisiensi."
+    },
+    {
+        "question": "apa itu cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "kenapa cuaca penting?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "bagaimana cara cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "dimana saya bisa menemukan cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "siapa yang menciptakan cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "apa manfaat dari cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "apa yang terjadi jika cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "kapan cuaca terjadi?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "apa yang membuat cuaca unik?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "apa contoh dari cuaca?",
+        "answer": "Pertanyaan ini terkait dengan cuaca."
+    },
+    {
+        "question": "apa itu teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "kenapa teknologi penting?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "bagaimana cara teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "dimana saya bisa menemukan teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "siapa yang menciptakan teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "apa manfaat dari teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "apa yang terjadi jika teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "kapan teknologi terjadi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "apa yang membuat teknologi unik?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "apa contoh dari teknologi?",
+        "answer": "Pertanyaan ini terkait dengan teknologi."
+    },
+    {
+        "question": "apa itu pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "kenapa pendidikan penting?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "bagaimana cara pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "dimana saya bisa menemukan pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "siapa yang menciptakan pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "apa manfaat dari pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "apa yang terjadi jika pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "kapan pendidikan terjadi?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "apa yang membuat pendidikan unik?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "apa contoh dari pendidikan?",
+        "answer": "Pertanyaan ini terkait dengan pendidikan."
+    },
+    {
+        "question": "apa itu kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "kenapa kesehatan penting?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "bagaimana cara kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "dimana saya bisa menemukan kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "siapa yang menciptakan kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "apa manfaat dari kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "apa yang terjadi jika kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "kapan kesehatan terjadi?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "apa yang membuat kesehatan unik?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "apa contoh dari kesehatan?",
+        "answer": "Pertanyaan ini terkait dengan kesehatan."
+    },
+    {
+        "question": "apa itu olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "kenapa olahraga penting?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "bagaimana cara olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "dimana saya bisa menemukan olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "siapa yang menciptakan olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "apa manfaat dari olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "apa yang terjadi jika olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "kapan olahraga terjadi?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "apa yang membuat olahraga unik?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "apa contoh dari olahraga?",
+        "answer": "Pertanyaan ini terkait dengan olahraga."
+    },
+    {
+        "question": "apa itu musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "kenapa musik penting?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "bagaimana cara musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "dimana saya bisa menemukan musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "siapa yang menciptakan musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "apa manfaat dari musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "apa yang terjadi jika musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "kapan musik terjadi?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "apa yang membuat musik unik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "apa contoh dari musik?",
+        "answer": "Pertanyaan ini terkait dengan musik."
+    },
+    {
+        "question": "apa itu seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "kenapa seni penting?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "bagaimana cara seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "dimana saya bisa menemukan seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "siapa yang menciptakan seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "apa manfaat dari seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "apa yang terjadi jika seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "kapan seni terjadi?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "apa yang membuat seni unik?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "apa contoh dari seni?",
+        "answer": "Pertanyaan ini terkait dengan seni."
+    },
+    {
+        "question": "apa itu makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "kenapa makanan penting?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "bagaimana cara makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "dimana saya bisa menemukan makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "siapa yang menciptakan makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "apa manfaat dari makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "apa yang terjadi jika makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "kapan makanan terjadi?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "apa yang membuat makanan unik?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "apa contoh dari makanan?",
+        "answer": "Pertanyaan ini terkait dengan makanan."
+    },
+    {
+        "question": "apa itu perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "kenapa perjalanan penting?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "bagaimana cara perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "dimana saya bisa menemukan perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "siapa yang menciptakan perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "apa manfaat dari perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "apa yang terjadi jika perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "kapan perjalanan terjadi?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "apa yang membuat perjalanan unik?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "apa contoh dari perjalanan?",
+        "answer": "Pertanyaan ini terkait dengan perjalanan."
+    },
+    {
+        "question": "apa itu bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "kenapa bisnis penting?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "bagaimana cara bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "dimana saya bisa menemukan bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "siapa yang menciptakan bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "apa manfaat dari bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "apa yang terjadi jika bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "kapan bisnis terjadi?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "apa yang membuat bisnis unik?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "apa contoh dari bisnis?",
+        "answer": "Pertanyaan ini terkait dengan bisnis."
+    },
+    {
+        "question": "apa kabar?",
+        "answer": "Saya baik, terima kasih! Bagaimana dengan Anda?"
+    },
+    {
+        "question": "siapa kamu?",
+        "answer": "Saya adalah asisten virtual yang siap membantu Anda."
+    },
+    {
+        "question": "dimana saya?",
+        "answer": "Saat ini Anda menggunakan aplikasi untuk berinteraksi dengan saya."
+    },
+    {
+        "question": "apa itu?",
+        "answer": "Ini adalah pertanyaan umum. Apa yang Anda maksudkan?"
+    },
+    {
+        "question": "kenapa itu?",
+        "answer": "Sebab tertentu membuatnya menjadi penting."
+    },
+    {
+        "question": "bagaimana cara?",
+        "answer": "Anda bisa menjelaskan lebih lanjut tentang apa yang Anda butuhkan."
+    },
+    {
+        "question": "kapan itu?",
+        "answer": "Waktu akan bergantung pada konteks pertanyaannya."
+    },
+    {
+        "question": "siapa penciptamu?",
+        "answer": "Saya diciptakan oleh Muhammad Syaiful Mukmin."
+    },
+    {
+        "question": "dimana teknologi?",
+        "answer": "Teknologi dapat ditemukan di hampir setiap aspek kehidupan modern."
+    },
+    {
+        "question": "apa teknologi?",
+        "answer": "Teknologi adalah alat yang digunakan untuk memecahkan masalah."
+    },
+    {
+        "question": "kenapa belajar?",
+        "answer": "Belajar penting untuk perkembangan pribadi dan profesional."
+    },
+    {
+        "question": "siapa presiden?",
+        "answer": "Presiden Indonesia saat ini adalah Joko Widodo."
+    },
+    {
+        "question": "apa cuaca?",
+        "answer": "Cuaca adalah kondisi atmosfer di suatu tempat pada waktu tertentu."
+    },
+    {
+        "question": "dimana makanan?",
+        "answer": "Makanan tersedia di restoran, pasar, atau toko bahan makanan."
+    },
+    {
+        "question": "apa kesehatan?",
+        "answer": "Kesehatan adalah keadaan fisik, mental, dan sosial yang baik."
+    },
+    {
+        "question": "apa seni?",
+        "answer": "Seni adalah ekspresi kreativitas manusia dalam berbagai bentuk."
+    },
+    {
+        "question": "siapa pelukis?",
+        "answer": "Pelukis adalah seseorang yang menciptakan karya seni dengan cat."
+    },
+    {
+        "question": "apa olahraga?",
+        "answer": "Olahraga adalah aktivitas fisik yang dilakukan untuk bersenang-senang atau kompetisi."
+    },
+    {
+        "question": "kenapa berolahraga?",
+        "answer": "Berolahraga penting untuk menjaga kesehatan dan kebugaran."
+    },
+    {
+        "question": "dimana belajar?",
+        "answer": "Belajar bisa dilakukan di sekolah, universitas, atau secara mandiri."
+    },
+    {
+        "question": "apa musik?",
+        "answer": "Musik adalah seni yang menggunakan suara untuk mengekspresikan perasaan."
+    },
+    {
+        "question": "apa bahasa?",
+        "answer": "Bahasa adalah alat komunikasi antara manusia."
+    },
+    {
+        "question": "dimana pasar?",
+        "answer": "Pasar biasanya berada di pusat kota atau daerah ramai."
+    },
+    {
+        "question": "siapa guru?",
+        "answer": "Guru adalah orang yang mengajar siswa di sekolah."
+    },
+    {
+        "question": "kenapa belajar?",
+        "answer": "Belajar memperluas pengetahuan dan keterampilan kita."
+    },
+    {
+        "question": "apa kota?",
+        "answer": "Kota adalah area perkotaan dengan banyak penduduk."
+    },
+    {
+        "question": "dimana sekolah?",
+        "answer": "Sekolah dapat ditemukan di hampir setiap komunitas."
+    },
+    {
+        "question": "apa liburan?",
+        "answer": "Liburan adalah waktu untuk beristirahat dan bersenang-senang."
+    },
+    {
+        "question": "siapa teman?",
+        "answer": "Teman adalah orang yang kita kenal dan akrab."
+    },
+    {
+        "question": "apa mimpi?",
+        "answer": "Mimpi adalah gambaran atau cerita yang terjadi saat tidur."
+    },
+    {
+        "question": "kenapa hidup?",
+        "answer": "Hidup memberi kita kesempatan untuk belajar dan tumbuh."
+    },
+    {
+        "question": "apa cinta?",
+        "answer": "Cinta adalah perasaan kasih sayang yang mendalam."
+    },
+    {
+        "question": "dimana rumah?",
+        "answer": "Rumah adalah tempat tinggal kita sehari-hari."
+    },
+    {
+        "question": "siapa raja?",
+        "answer": "Raja adalah pemimpin monarki dalam suatu negara."
+    },
+    {
+        "question": "apa film?",
+        "answer": "Film adalah bentuk hiburan yang menceritakan sebuah cerita."
+    },
+    {
+        "question": "kenapa seni?",
+        "answer": "Seni memberikan ruang untuk ekspresi kreatif."
+    },
+    {
+        "question": "apa olahraga?",
+        "answer": "Olahraga adalah aktivitas fisik yang melibatkan kompetisi."
+    },
+    {
+        "question": "siapa penulis?",
+        "answer": "Penulis adalah orang yang menciptakan karya tulis."
+    },
+    {
+        "question": "dimana sungai?",
+        "answer": "Sungai dapat ditemukan di hampir setiap negara."
+    },
+    {
+        "question": "apa gunung?",
+        "answer": "Gunung adalah bentuk geografi yang menjulang tinggi."
+    },
+    {
+        "question": "kenapa cuaca?",
+        "answer": "Cuaca mempengaruhi aktivitas kita sehari-hari."
+    },
+    {
+        "question": "apa makanan?",
+        "answer": "Makanan adalah bahan yang dimakan untuk nutrisi."
+    },
+    {
+        "question": "siapa presiden?",
+        "answer": "Presiden adalah pemimpin eksekutif suatu negara."
+    },
+    {
+        "question": "dimana laut?",
+        "answer": "Laut bisa ditemukan di sepanjang pantai."
+    },
+    {
+        "question": "apa hewan?",
+        "answer": "Hewan adalah makhluk hidup yang bukan manusia."
+    },
+    {
+        "question": "kenapa tanaman?",
+        "answer": "Tanaman penting untuk menghasilkan oksigen."
+    },
+    {
+        "question": "apa buku?",
+        "answer": "Buku adalah kumpulan tulisan yang dicetak."
+    },
+    {
+        "question": "dimana taman?",
+        "answer": "Taman biasanya terletak di area publik."
+    },
+    {
+        "question": "siapa ilmuwan?",
+        "answer": "Ilmuwan adalah orang yang melakukan penelitian ilmiah."
+    },
+    {
+        "question": "apa langit?",
+        "answer": "Langit adalah area di atas bumi yang terlihat."
+    },
+    {
+        "question": "kenapa bintang?",
+        "answer": "Bintang adalah benda langit yang bersinar di malam hari."
+    },
+    {
+        "question": "dimana bulan?",
+        "answer": "Bulan bisa dilihat di malam hari."
+    },
+    {
+        "question": "apa matahari?",
+        "answer": "Matahari adalah bintang pusat dari tata surya kita."
+    },
+    {
+        "question": "kenapa air?",
+        "answer": "Air penting untuk kelangsungan hidup."
+    },
+    {
+        "question": "siapa penyanyi?",
+        "answer": "Penyanyi adalah orang yang menyanyikan lagu."
+    },
+    {
+        "question": "apa suara?",
+        "answer": "Suara adalah getaran yang dapat didengar oleh telinga."
+    },
+    {
+        "question": "dimana suara?",
+        "answer": "Suara dapat diproduksi oleh berbagai sumber."
+    },
+    {
+        "question": "kenapa musik?",
+        "answer": "Musik dapat mempengaruhi emosi dan suasana hati."
+    },
+    {
+        "question": "apa tari?",
+        "answer": "Tari adalah bentuk seni yang melibatkan gerakan tubuh."
+    },
+    {
+        "question": "dimana panggung?",
+        "answer": "Panggung biasanya ditemukan di tempat pertunjukan."
+    },
+    {
+        "question": "siapa sutradara?",
+        "answer": "Sutradara adalah orang yang mengarahkan film."
+    },
+    {
+        "question": "kenapa teater?",
+        "answer": "Teater adalah bentuk seni yang menampilkan drama."
+    },
+    {
+        "question": "apa puisi?",
+        "answer": "Puisi adalah bentuk sastra yang menggunakan kata-kata."
+    },
+    {
+        "question": "siapa artis?",
+        "answer": "Artis adalah orang yang berprofesi di bidang seni."
+    },
+    {
+        "question": "dimana konser?",
+        "answer": "Konser biasanya diadakan di gedung atau lapangan."
+    },
+    {
+        "question": "apa lukisan?",
+        "answer": "Lukisan adalah karya seni yang dibuat dengan cat."
+    },
+    {
+        "question": "kenapa fotografi?",
+        "answer": "Fotografi adalah seni menangkap gambar."
+    },
+    {
+        "question": "dimana galeri?",
+        "answer": "Galeri adalah tempat pameran karya seni."
+    },
+    {
+        "question": "apa desain?",
+        "answer": "Desain adalah proses merancang sesuatu."
+    },
+    {
+        "question": "siapa pematung?",
+        "answer": "Pematung adalah orang yang menciptakan patung."
+    },
+    {
+        "question": "apa patung?",
+        "answer": "Patung adalah karya seni tiga dimensi."
+    },
+    {
+        "question": "kenapa sejarah?",
+        "answer": "Sejarah penting untuk memahami masa lalu."
+    },
+    {
+        "question": "apa budaya?",
+        "answer": "Budaya adalah kumpulan nilai dan norma suatu masyarakat."
+    },
+    {
+        "question": "siapa tokoh?",
+        "answer": "Tokoh adalah individu yang berpengaruh dalam masyarakat."
+    },
+    {
+        "question": "apa tradisi?",
+        "answer": "Tradisi adalah praktik yang diwariskan dari generasi ke generasi."
+    },
+    {
+        "question": "kenapa festival?",
+        "answer": "Festival adalah perayaan budaya atau agama."
+    },
+    {
+        "question": "dimana perayaan?",
+        "answer": "Perayaan diadakan di berbagai tempat."
+    },
+    {
+        "question": "apa kesenian?",
+        "answer": "Kesenian mencakup berbagai bentuk ekspresi kreatif."
+    },
+    {
+        "question": "siapa penari?",
+        "answer": "Penari adalah orang yang menari untuk hiburan."
+    },
+    {
+        "question": "apa tarian?",
+        "answer": "Tarian adalah gerakan tubuh yang teratur."
+    },
+    {
+        "question": "dimana pertunjukan?",
+        "answer": "Pertunjukan bisa ditemukan di teater atau festival."
+    },
+    {
+        "question": "kenapa drama?",
+        "answer": "Drama adalah bentuk seni yang menampilkan cerita."
+    },
+    {
+        "question": "apa cerita?",
+        "answer": "Cerita adalah narasi yang menceritakan peristiwa."
+    },
+    {
+        "question": "siapa karakter?",
+        "answer": "Karakter adalah individu dalam sebuah cerita."
+    },
+    {
+        "question": "apa tema?",
+        "answer": "Tema adalah ide utama dalam suatu karya."
+    },
+    {
+        "question": "kenapa komedi?",
+        "answer": "Komedi bertujuan untuk menghibur dan membuat tertawa."
+    },
+    {
+        "question": "apa tragedi?",
+        "answer": "Tragedi adalah cerita dengan akhir yang menyedihkan."
+    },
+    {
+        "question": "siapa penulis?",
+        "answer": "Penulis adalah orang yang menciptakan cerita atau artikel."
+    },
+    {
+        "question": "apa novel?",
+        "answer": "Novel adalah karya fiksi yang panjang."
+    },
+    {
+        "question": "kenapa sastra?",
+        "answer": "Sastra adalah seni berbahasa yang memiliki nilai."
+    },
+    {
+        "question": "dimana puisi?",
+        "answer": "Puisi bisa ditemukan di buku atau antologi."
+    },
+    {
+        "question": "apa surat?",
+        "answer": "Surat adalah komunikasi tertulis antara orang."
+    },
+    {
+        "question": "siapa penyair?",
+        "answer": "Penyair adalah orang yang menulis puisi."
+    },
+    {
+        "question": "apa buku?",
+        "answer": "Buku adalah kumpulan tulisan yang terorganisir."
+    },
+    {
+        "question": "dimana perpustakaan?",
+        "answer": "Perpustakaan adalah tempat penyimpanan buku."
+    },
+    {
+        "question": "kenapa baca?",
+        "answer": "Membaca meningkatkan pengetahuan dan keterampilan."
+    },
+    {
+        "question": "apa belajar?",
+        "answer": "Belajar adalah proses memperoleh pengetahuan baru."
+    },
+    {
+        "question": "siapa siswa?",
+        "answer": "Siswa adalah orang yang belajar di sekolah."
+    },
+    {
+        "question": "apa guru?",
+        "answer": "Guru adalah orang yang mengajar di sekolah."
+    },
+    {
+        "question": "dimana kelas?",
+        "answer": "Kelas adalah ruang tempat belajar."
+    },
+    {
+        "question": "kenapa ujian?",
+        "answer": "Ujian digunakan untuk mengukur pemahaman siswa."
+    },
+    {
+        "question": "apa pendidikan?",
+        "answer": "Pendidikan adalah proses pembelajaran formal."
+    },
+    {
+        "question": "siapa universitas?",
+        "answer": "Universitas adalah lembaga pendidikan tinggi."
+    },
+    {
+        "question": "apa kolom?",
+        "answer": "Kolom adalah bagian dari artikel atau surat kabar."
+    },
+    {
+        "question": "kenapa berita?",
+        "answer": "Berita memberi informasi terkini kepada masyarakat."
+    },
+    {
+        "question": "dimana media?",
+        "answer": "Media adalah saluran untuk menyampaikan informasi."
+    },
+    {
+        "question": "apa komunikasi?",
+        "answer": "Komunikasi adalah proses penyampaian pesan."
+    },
+    {
+        "question": "siapa reporter?",
+        "answer": "Reporter adalah orang yang melaporkan berita."
+    },
+    {
+        "question": "apa jurnalis?",
+        "answer": "Jurnalis adalah profesional yang menulis berita."
+    },
+    {
+        "question": "kenapa artikel?",
+        "answer": "Artikel memberikan informasi atau opini."
+    },
+    {
+        "question": "apa majalah?",
+        "answer": "Majalah adalah publikasi berkala yang mencakup berbagai topik."
+    },
+    {
+        "question": "dimana iklan?",
+        "answer": "Iklan dapat ditemukan di media cetak dan online."
+    },
+    {
+        "question": "siapa pengiklan?",
+        "answer": "Pengiklan adalah orang atau perusahaan yang mempromosikan produk."
+    },
+    {
+        "question": "apa produk?",
+        "answer": "Produk adalah barang yang dijual atau dipasarkan."
+    },
+    {
+        "question": "kenapa pemasaran?",
+        "answer": "Pemasaran penting untuk mempromosikan produk."
+    },
+    {
+        "question": "apa perusahaan?",
+        "answer": "Perusahaan adalah organisasi yang menjalankan bisnis."
+    },
+    {
+        "question": "dimana kantor?",
+        "answer": "Kantor adalah tempat kerja untuk karyawan."
+    },
+    {
+        "question": "siapa manajer?",
+        "answer": "Manajer adalah orang yang mengelola tim atau proyek."
+    },
+    {
+        "question": "apa karyawan?",
+        "answer": "Karyawan adalah orang yang bekerja untuk perusahaan."
+    },
+    {
+        "question": "kenapa kerja?",
+        "answer": "Kerja adalah cara untuk mendapatkan penghasilan."
+    },
+    {
+        "question": "apa gaji?",
+        "answer": "Gaji adalah pembayaran untuk pekerjaan yang dilakukan."
+    },
+    {
+        "question": "dimana liburan?",
+        "answer": "Liburan bisa dihabiskan di tempat wisata."
+    },
+    {
+        "question": "siapa pelancong?",
+        "answer": "Pelancong adalah orang yang bepergian untuk bersenang-senang."
+    },
+    {
+        "question": "apa destinasi?",
+        "answer": "Destinasi adalah tempat tujuan perjalanan."
+    },
+    {
+        "question": "kenapa perjalanan?",
+        "answer": "Perjalanan memberi pengalaman dan petualangan baru."
+    },
+    {
+        "question": "apa transportasi?",
+        "answer": "Transportasi adalah cara untuk berpindah dari satu tempat ke tempat lain."
+    },
+    {
+        "question": "dimana kendaraan?",
+        "answer": "Kendaraan bisa ditemukan di jalan raya."
+    },
+    {
+        "question": "siapa sopir?",
+        "answer": "Sopir adalah orang yang mengemudikan kendaraan."
+    },
+    {
+        "question": "apa tiket?",
+        "answer": "Tiket adalah bukti pembayaran untuk perjalanan."
+    },
+    {
+        "question": "kenapa penerbangan?",
+        "answer": "Penerbangan adalah cara cepat untuk bepergian jarak jauh."
+    },
+    {
+        "question": "apa pelabuhan?",
+        "answer": "Pelabuhan adalah tempat untuk kapal bersandar."
+    },
+    {
+        "question": "dimana bandara?",
+        "answer": "Bandara adalah tempat keberangkatan dan kedatangan pesawat."
+    },
+    {
+        "question": "siapa penumpang?",
+        "answer": "Penumpang adalah orang yang menggunakan jasa transportasi."
+    },
+    {
+        "question": "apa perjalanan?",
+        "answer": "Perjalanan adalah aktivitas berpindah dari satu tempat ke tempat lain."
+    },
+    {
+        "question": "kenapa wisata?",
+        "answer": "Wisata memberi kesempatan untuk menikmati keindahan alam."
+    },
+    {
+        "question": "apa penginapan?",
+        "answer": "Penginapan adalah tempat untuk menginap saat bepergian."
+    },
+    {
+        "question": "dimana restoran?",
+        "answer": "Restoran adalah tempat makan yang menawarkan menu."
+    },
+    {
+        "question": "siapa koki?",
+        "answer": "Koki adalah orang yang memasak di restoran."
+    },
+    {
+        "question": "apa menu?",
+        "answer": "Menu adalah daftar makanan dan minuman yang tersedia."
+    },
+    {
+        "question": "kenapa makanan?",
+        "answer": "Makanan penting untuk nutrisi dan kesehatan."
+    },
+    {
+        "question": "apa resep?",
+        "answer": "Resep adalah panduan untuk memasak suatu hidangan."
+    },
+    {
+        "question": "dimana pasar?",
+        "answer": "Pasar adalah tempat jual beli barang."
+    },
+    {
+        "question": "siapa penjual?",
+        "answer": "Penjual adalah orang yang menjual barang atau jasa."
+    },
+    {
+        "question": "apa toko?",
+        "answer": "Toko adalah tempat untuk membeli barang."
+    },
+    {
+        "question": "kenapa belanja?",
+        "answer": "Belanja untuk memenuhi kebutuhan sehari-hari."
+    },
+    {
+        "question": "apa pelanggan?",
+        "answer": "Pelanggan adalah orang yang membeli barang atau jasa."
+    },
+    {
+        "question": "dimana barang?",
+        "answer": "Barang dapat ditemukan di toko atau pasar."
+    },
+    {
+        "question": "siapa pelanggan?",
+        "answer": "Pelanggan adalah orang yang menggunakan layanan atau produk."
+    },
+    {
+        "question": "apa kualitas?",
+        "answer": "Kualitas adalah ukuran dari seberapa baik sesuatu."
+    },
+    {
+        "question": "kenapa layanan?",
+        "answer": "Layanan penting untuk memenuhi kebutuhan pelanggan."
+    },
+    {
+        "question": "apa teknologi?",
+        "answer": "Teknologi adalah alat atau sistem untuk memecahkan masalah."
+    },
+    {
+        "question": "dimana inovasi?",
+        "answer": "Inovasi dapat ditemukan di berbagai industri."
+    },
+    {
+        "question": "siapa ilmuwan?",
+        "answer": "Ilmuwan adalah orang yang melakukan penelitian dan eksperimen."
+    },
+    {
+        "question": "apa penelitian?",
+        "answer": "Penelitian adalah proses untuk menemukan informasi baru."
+    },
+    {
+        "question": "kenapa eksperimen?",
+        "answer": "Eksperimen digunakan untuk menguji hipotesis."
+    },
+    {
+        "question": "apa hasil?",
+        "answer": "Hasil adalah informasi yang diperoleh dari penelitian."
+    },
+    {
+        "question": "dimana laboratorium?",
+        "answer": "Laboratorium adalah tempat melakukan penelitian dan eksperimen."
+    },
+    {
+        "question": "siapa peneliti?",
+        "answer": "Peneliti adalah orang yang melakukan penelitian."
+    },
+    {
+        "question": "apa data?",
+        "answer": "Data adalah informasi yang dikumpulkan untuk analisis."
+    },
+    {
+        "question": "kenapa statistik?",
+        "answer": "Statistik membantu dalam menganalisis data."
+    },
+    {
+        "question": "apa analisis?",
+        "answer": "Analisis adalah proses memeriksa dan menafsirkan data."
+    },
+    {
+        "question": "dimana informasi?",
+        "answer": "Informasi dapat ditemukan di buku dan internet."
+    },
+    {
+        "question": "siapa konsultan?",
+        "answer": "Konsultan adalah profesional yang memberikan saran."
+    },
+    {
+        "question": "apa strategi?",
+        "answer": "Strategi adalah rencana untuk mencapai tujuan."
+    },
+    {
+        "question": "kenapa perencanaan?",
+        "answer": "Perencanaan penting untuk mencapai tujuan secara efektif."
+    },
+    {
+        "question": "apa manajemen?",
+        "answer": "Manajemen adalah proses pengelolaan sumber daya."
+    },
+    {
+        "question": "dimana organisasi?",
+        "answer": "Organisasi adalah struktur yang mengelola kegiatan bersama."
+    },
+    {
+        "question": "siapa direktur?",
+        "answer": "Direktur adalah pemimpin dalam suatu organisasi."
+    },
+    {
+        "question": "apa rapat?",
+        "answer": "Rapat adalah pertemuan untuk membahas suatu topik."
+    },
+    {
+        "question": "kenapa proyek?",
+        "answer": "Proyek adalah usaha untuk mencapai tujuan tertentu."
+    },
+    {
+        "question": "apa hasil?",
+        "answer": "Hasil adalah pencapaian dari suatu kegiatan."
+    },
+    {
+        "question": "dimana kantor?",
+        "answer": "Kantor adalah tempat bekerja."
+    },
+    {
+        "question": "siapa tim?",
+        "answer": "Tim adalah kelompok orang yang bekerja bersama."
+    },
+    {
+        "question": "apa kerjasama?",
+        "answer": "Kerjasama adalah bekerja sama untuk mencapai tujuan."
+    },
+    {
+        "question": "kenapa komunikasi?",
+        "answer": "Komunikasi penting untuk menjaga hubungan baik."
+    },
+    {
+        "question": "apa kolaborasi?",
+        "answer": "Kolaborasi adalah kerjasama antara dua pihak atau lebih."
+    },
+    {
+        "question": "dimana hubungan?",
+        "answer": "Hubungan bisa terjadi di berbagai konteks sosial."
+    },
+    {
+        "question": "siapa pemimpin?",
+        "answer": "Pemimpin adalah orang yang memandu kelompok."
+    },
+    {
+        "question": "apa visi?",
+        "answer": "Visi adalah pandangan masa depan yang ingin dicapai."
+    },
+    {
+        "question": "kenapa misi?",
+        "answer": "Misi adalah tujuan utama yang ingin dicapai."
+    },
+    {
+        "question": "apa tujuan?",
+        "answer": "Tujuan adalah sasaran yang ingin dicapai."
+    },
+    {
+        "question": "dimana nilai?",
+        "answer": "Nilai dapat ditemukan dalam budaya dan norma."
+    },
+    {
+        "question": "siapa etika?",
+        "answer": "Etika adalah prinsip tentang benar dan salah."
+    },
+    {
+        "question": "apa tanggung jawab?",
+        "answer": "Tanggung jawab adalah kewajiban yang harus dipenuhi."
+    },
+    {
+        "question": "kenapa integritas?",
+        "answer": "Integritas adalah konsistensi antara nilai dan tindakan."
+    },
+    {
+        "question": "apa kehormatan?",
+        "answer": "Kehormatan adalah reputasi atau martabat seseorang."
+    },
+    {
+        "question": "dimana kejujuran?",
+        "answer": "Kejujuran penting dalam hubungan sosial."
+    },
+    {
+        "question": "siapa komitmen?",
+        "answer": "Komitmen adalah kesetiaan pada janji atau tugas."
+    },
+    {
+        "question": "apa kerugian?",
+        "answer": "Kerugian adalah kehilangan atau dampak negatif dari suatu keputusan."
+    },
+    {
+        "question": "kenapa keuntungan?",
+        "answer": "Keuntungan adalah hasil positif dari suatu investasi."
+    },
+    {
+        "question": "apa risiko?",
+        "answer": "Risiko adalah kemungkinan terjadinya kerugian atau bahaya."
+    },
+    {
+        "question": "dimana peluang?",
+        "answer": "Peluang dapat ditemukan di berbagai sektor ekonomi."
+    },
+    {
+        "question": "siapa analisis?",
+        "answer": "Analisis adalah proses memeriksa dan menilai informasi."
+    },
+    {
+        "question": "apa keputusan?",
+        "answer": "Keputusan adalah pilihan yang diambil setelah mempertimbangkan opsi."
+    },
+    {
+        "question": "kenapa tantangan?",
+        "answer": "Tantangan adalah rintangan yang harus dihadapi."
+    },
+    {
+        "question": "apa solusi?",
+        "answer": "Solusi adalah jawaban atas suatu masalah."
+    },
+    {
+        "question": "dimana strategi?",
+        "answer": "Strategi dapat ditemukan dalam rencana bisnis."
+    },
+    {
+        "question": "siapa evaluasi?",
+        "answer": "Evaluasi adalah proses menilai efektivitas suatu program."
+    },
+    {
+        "question": "apa umpan balik?",
+        "answer": "Umpan balik adalah respon terhadap suatu tindakan."
+    },
+    {
+        "question": "kenapa umpan?",
+        "answer": "Umpan penting untuk meningkatkan kinerja."
+    },
+    {
+        "question": "apa hasil?",
+        "answer": "Hasil adalah konsekuensi dari suatu tindakan."
+    },
+    {
+        "question": "dimana proyek?",
+        "answer": "Proyek dapat dilakukan di berbagai bidang."
+    },
+    {
+        "question": "siapa tim?",
+        "answer": "Tim adalah kelompok orang yang bekerja sama."
+    },
+    {
+        "question": "apa inovasi?",
+        "answer": "Inovasi adalah ide baru yang membawa perubahan."
+    },
+    {
+        "question": "kenapa adaptasi?",
+        "answer": "Adaptasi penting untuk bertahan di lingkungan yang berubah."
+    },
+    {
+        "question": "apa perkembangan?",
+        "answer": "Perkembangan adalah proses kemajuan menuju yang lebih baik."
+    },
+    {
+        "question": "dimana kemajuan?",
+        "answer": "Kemajuan dapat dilihat dalam berbagai sektor."
+    },
+    {
+        "question": "siapa transformasi?",
+        "answer": "Transformasi adalah perubahan yang signifikan."
+    },
+    {
+        "question": "apa tujuan?",
+        "answer": "Tujuan adalah hasil yang ingin dicapai."
+    },
+    {
+        "question": "kenapa keberhasilan?",
+        "answer": "Keberhasilan adalah pencapaian yang membanggakan."
+    },
+    {
+        "question": "apa perubahan?",
+        "answer": "Perubahan adalah proses beralih dari satu kondisi ke kondisi lain."
+    },
+    {
+        "question": "dimana lingkungan?",
+        "answer": "Lingkungan adalah tempat di mana makhluk hidup berinteraksi."
+    },
+    {
+        "question": "siapa ekosistem?",
+        "answer": "Ekosistem adalah komunitas organisme dan lingkungan fisiknya."
+    },
+    {
+        "question": "apa konservasi?",
+        "answer": "Konservasi adalah usaha untuk melestarikan sumber daya alam."
+    },
+    {
+        "question": "kenapa keberlanjutan?",
+        "answer": "Keberlanjutan penting untuk masa depan bumi."
+    },
+    {
+        "question": "apa sumber daya?",
+        "answer": "Sumber daya adalah bahan atau barang yang dapat digunakan."
+    },
+    {
+        "question": "dimana limbah?",
+        "answer": "Limbah dihasilkan dari aktivitas manusia."
+    },
+    {
+        "question": "siapa daur ulang?",
+        "answer": "Daur ulang adalah proses mengolah kembali limbah."
+    },
+    {
+        "question": "apa polusi?",
+        "answer": "Polusi adalah pencemaran lingkungan oleh bahan berbahaya."
+    },
+    {
+        "question": "kenapa perubahan iklim?",
+        "answer": "Perubahan iklim adalah dampak dari aktivitas manusia yang mempengaruhi cuaca."
+    },
+    {
+        "question": "apa energi?",
+        "answer": "Energi adalah kemampuan untuk melakukan kerja."
+    },
+    {
+        "question": "dimana sumber energi?",
+        "answer": "Sumber energi dapat berasal dari alam atau buatan."
+    },
+    {
+        "question": "siapa pengembang?",
+        "answer": "Pengembang adalah orang atau perusahaan yang menciptakan produk atau layanan."
+    },
+    {
+        "question": "apa teknologi informasi?",
+        "answer": "Teknologi informasi adalah penggunaan komputer dan perangkat lunak untuk mengelola data."
+    },
+    {
+        "question": "kenapa keamanan siber?",
+        "answer": "Keamanan siber melindungi data dari ancaman online."
+    },
+    {
+        "question": "apa aplikasi?",
+        "answer": "Aplikasi adalah perangkat lunak yang digunakan untuk tujuan tertentu."
+    },
+    {
+        "question": "dimana internet?",
+        "answer": "Internet adalah jaringan global untuk komunikasi dan informasi."
+    },
+    {
+        "question": "siapa programmer?",
+        "answer": "Programmer adalah orang yang menulis kode untuk aplikasi."
+    },
+    {
+        "question": "apa perangkat keras?",
+        "answer": "Perangkat keras adalah komponen fisik dari komputer."
+    },
+    {
+        "question": "kenapa perangkat lunak?",
+        "answer": "Perangkat lunak adalah program yang menjalankan fungsi pada komputer."
+    },
+    {
+        "question": "apa jaringan?",
+        "answer": "Jaringan adalah kumpulan perangkat yang saling terhubung."
+    },
+    {
+        "question": "dimana data?",
+        "answer": "Data dapat disimpan di server atau perangkat penyimpanan."
+    },
+    {
+        "question": "siapa penyimpanan?",
+        "answer": "Penyimpanan adalah tempat untuk menyimpan data."
+    },
+    {
+        "question": "apa cloud?",
+        "answer": "Cloud adalah penyimpanan data yang dapat diakses melalui internet."
+    },
+    {
+        "question": "kenapa analitik?",
+        "answer": "Analitik adalah proses menganalisis data untuk mendapatkan wawasan."
+    },
+    {
+        "question": "apa big data?",
+        "answer": "Big data adalah kumpulan data yang sangat besar dan kompleks."
+    },
+    {
+        "question": "dimana machine learning?",
+        "answer": "Machine learning adalah bagian dari kecerdasan buatan."
+    },
+    {
+        "question": "siapa algoritma?",
+        "answer": "Algoritma adalah langkah-langkah untuk menyelesaikan masalah."
+    },
+    {
+        "question": "apa kecerdasan buatan?",
+        "answer": "Kecerdasan buatan adalah sistem yang meniru kemampuan manusia."
+    },
+    {
+        "question": "kenapa otomatisasi?",
+        "answer": "Otomatisasi mengurangi kebutuhan akan intervensi manusia."
+    },
+    {
+        "question": "apa robot?",
+        "answer": "Robot adalah mesin yang dapat melakukan tugas otomatis."
+    },
+    {
+        "question": "dimana teknologi?",
+        "answer": "Teknologi dapat ditemukan di berbagai bidang kehidupan."
+    },
+    {
+        "question": "siapa inovator?",
+        "answer": "Inovator adalah orang yang menciptakan ide-ide baru."
+    },
+    {
+        "question": "apa masa depan?",
+        "answer": "Masa depan adalah waktu yang akan datang."
+    },
+    {
+        "question": "kenapa harapan?",
+        "answer": "Harapan memberikan motivasi untuk mencapai impian."
+    },
+    {
+        "question": "apa tujuan hidup?",
+        "answer": "Tujuan hidup adalah pencapaian yang ingin diraih seseorang."
     }
 ]
