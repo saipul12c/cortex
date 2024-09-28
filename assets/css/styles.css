@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.chat-container {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    background: #f9f9f9;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.message.user {
+    background: #e1f7d5;
+    text-align: right;
+}
+
+.message.ai {
+    background: #d1e8ff;
+    text-align: left;
+}
+
+.loading {
+    text-align: center;
+    font-style: italic;
+    color: #6c757d;
+    margin: 10px 0;
+}
+
+.question-list {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.question-list li {
+    background: #e2e3e5;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.question-list li:hover {
+    background: #d3d3d3;
+}
+
+

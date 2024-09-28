@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is asynchronous programming?",
+        "answer": "Asynchronous programming allows multiple tasks to run concurrently, without waiting for each task to complete."
+    },
+    {
+        "question": "What is an API?",
+        "answer": "API (Application Programming Interface) is a set of protocols for building and interacting with software applications."
+    },
+    {
+        "question": "What is JSON?",
+        "answer": "JSON (JavaScript Object Notation) is a lightweight format for storing and transporting data."
+    }
+]

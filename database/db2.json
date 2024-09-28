@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is a variable?",
+        "answer": "A variable is a container for storing data values."
+    },
+    {
+        "question": "What is an array?",
+        "answer": "An array is a data structure that holds multiple values at once."
+    },
+    {
+        "question": "What is a function?",
+        "answer": "A function is a block of code designed to perform a particular task."
+    }
+]

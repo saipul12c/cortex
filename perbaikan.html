@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Perbaikan</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> <!-- Tautkan ke Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Tautkan ke Font Awesome -->
+    <style>
+        .countdown {
+            font-size: 2rem; /* Ukuran font untuk hitung mundur */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex flex-col items-center justify-center h-screen text-gray-800">
+    <div class="text-center p-6 bg-white rounded-lg shadow-lg">
+        <h1 class="text-4xl font-bold text-red-600 mb-4">Halaman Sedang Dalam Perbaikan</h1>
+        <p class="mt-4 text-lg">Maaf, kami sedang melakukan perbaikan sistem saat ini.</p>
+        <p class="mt-2 text-lg">Perbaikan diperkirakan selesai pada: <strong id="endTime">Senin, 30 September 2024, 07:00 WIB</strong></p>
+        
+        <div class="mt-8 flex items-center justify-center">
+            <i class="fas fa-tools text-5xl text-gray-600 mr-4"></i>
+            <div class="countdown" id="countdown">00:00:00</div>
+        </div>
+        
+        <p class="mt-4">Silakan kembali lagi nanti. Terima kasih atas kesabaran Anda!</p>
+        <a href="index.html" class="mt-4 inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 transition">Kembali ke Beranda</a> <!-- Ganti dengan URL beranda yang sesuai -->
+
+        <div class="mt-6">
+            <h2 class="text-lg font-semibold">Ikuti Kami di Media Sosial</h2>
+            <div class="flex justify-center mt-2 space-x-4">
+                <a href="#" class="text-blue-600 hover:text-blue-800 transition">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="#" class="text-blue-400 hover:text-blue-600 transition">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="#" class="text-pink-600 hover:text-pink-800 transition">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="#" class="text-blue-700 hover:text-blue-900 transition">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Waktu perbaikan selesai
+        const endTime = new Date('September 30, 2024 07:00:00 GMT+0700').getTime();
+        const countdownElement = document.getElementById('countdown');
+
+        const interval = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = endTime - now;
+
+            // Hitung jam, menit, dan detik
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Tampilkan hasil di elemen countdown
+            countdownElement.innerHTML = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+            // Jika waktu habis, tampilkan pesan
+            if (distance < 0) {
+                clearInterval(interval);
+                countdownElement.innerHTML = "Perbaikan Selesai!";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

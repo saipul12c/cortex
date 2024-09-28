@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is JavaScript?",
+        "answer": "JavaScript is a programming language used to create interactive effects within web browsers."
+    },
+    {
+        "question": "What is HTML?",
+        "answer": "HTML stands for Hyper Text Markup Language and is used to create web pages."
+    },
+    {
+        "question": "What is CSS?",
+        "answer": "CSS stands for Cascading Style Sheets and is used to style HTML elements."
+    }
+]
