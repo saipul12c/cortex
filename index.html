@@ -1,40 +1,88 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Chatbot</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Custom scrollbar for chat container */
+        #chat-container::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        #chat-container::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+
+        #chat-container::-webkit-scrollbar-thumb {
+            background: #cbd5e0;
+            border-radius: 4px;
+        }
+
+        #chat-container::-webkit-scrollbar-thumb:hover {
+            background: #a0aec0;
+        }
+    </style>
 </head>
-<body class="bg-gray-100">
-    <header class="bg-gradient-to-r from-blue-400 to-blue-600 text-white text-center py-4">
-        <h1 class="text-4xl font-extrabold drop-shadow-lg">Chat dengan AI</h1>
+
+<body class="bg-gray-100 min-h-screen flex flex-col">
+    <!-- Header -->
+    <header class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-center py-6 shadow-md">
+        <h1 class="text-5xl font-extrabold drop-shadow-lg">Chat dengan AI</h1>
+        <p class="mt-2 text-lg">Asisten cerdas untuk menjawab segala pertanyaan Anda</p>
     </header>
-    
-    <main class="container mx-auto mt-6 p-6 bg-white rounded-lg shadow-md">
-        <div id="chat-container" class="chat-container h-96 overflow-y-auto border border-gray-300 rounded-lg p-4 mb-4"></div>
-        
-        <form id="question-form" class="flex">
-            <input type="text" id="question-input" class="flex-grow p-3 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Tanya apa saja..." required />
-            <button type="submit" class="bg-blue-500 text-white px-4 rounded-r-lg hover:bg-blue-600 transition">Kirim</button>
+
+    <!-- Main Chat Section -->
+    <main class="flex-grow container mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
+        <!-- Chat Container -->
+        <div id="chat-container" class="h-96 overflow-y-auto border border-gray-200 rounded-lg p-4 mb-4 bg-gray-50 relative">
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading absolute bottom-4 left-1/2 transform -translate-x-1/2 text-gray-400 hidden">
+                <span class="flex items-center">
+                    <svg class="animate-spin h-5 w-5 mr-3 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v8H4z"></path>
+                    </svg>
+                    Mengetik...
+                </span>
+            </div>
+            <!-- Chat content will be appended here -->
+        </div>
+
+        <!-- Chat Input Form -->
+        <form id="question-form" class="flex flex-col sm:flex-row gap-4">
+            <input type="text" id="question-input"
+                class="flex-grow p-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                placeholder="Tanya apa saja..." required aria-label="Input pertanyaan" />
+            <button type="submit"
+                class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300 shadow-md flex items-center justify-center">
+                <i class="fas fa-paper-plane mr-2"></i>Kirim
+            </button>
         </form>
-        
-        <div id="loading" class="loading mt-2 text-gray-500" style="display: none;">Mengetik...</div>
-        <p class="info-text text-gray-500 text-sm text-center mt-2">Cortex dapat membuat kesalahan. Periksa info penting.</p>
-        <ul id="question-list" class="question-list mt-4"></ul>
+
+        <!-- Info Text -->
+        <p class="info-text text-gray-500 text-center mt-6">Cortex dapat membuat kesalahan. Periksa informasi yang diberikan dengan cermat.</p>
+
+        <!-- List of Previous Questions (Optional) -->
+        <ul id="question-list" class="question-list mt-6 space-y-2"></ul>
     </main>
-    
-    <footer class="bg-gradient-to-b from-blue-600 to-blue-800 text-white text-center py-6 mt-6 rounded-t-lg shadow-lg">
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-b from-blue-600 to-indigo-700 text-white text-center py-8 mt-12 rounded-t-lg shadow-lg">
         <div class="footer-content">
-            <h2 class="text-xl font-semibold mb-2">Terima kasih telah menggunakan AI Chatbot!</h2>
+            <h2 class="text-2xl font-semibold mb-3">Terima kasih telah menggunakan AI Chatbot!</h2>
             <p>&copy; 2024 AI Chatbot. Semua hak dilindungi.</p>
-            <p>Hubungi kami: <a href="mailto:support@aichatbot.com" class="underline">support@aichatbot.com</a></p>
-            <div class="social-media mt-2">
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="mx-2"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="mx-2"><i class="fab fa-twitter"></i></a>
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="mx-2"><i class="fab fa-instagram"></i></a>
-                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="mx-2"><i class="fab fa-linkedin-in"></i></a>
+            <p>Hubungi kami: <a href="mailto:support@aichatbot.com" class="underline hover:text-indigo-300">support@aichatbot.com</a></p>
+            <!-- Social Media Icons -->
+            <div class="social-media mt-4">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook" class="mx-3 text-xl hover:text-indigo-300"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter" class="mx-3 text-xl hover:text-indigo-300"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="mx-3 text-xl hover:text-indigo-300"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="mx-3 text-xl hover:text-indigo-300"><i class="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </footer>
@@ -42,4 +90,5 @@
     <script src="assets/js/ai_logic.js"></script>
     <script src="assets/js/close_page.js"></script>
 </body>
+
 </html>

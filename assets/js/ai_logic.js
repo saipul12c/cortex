@@ -97,15 +97,28 @@ function storeQuestionInSession(question) {
     sessionData.questions.push(question);
 }
 
-// Menangani semua error
-function handleErrors(callback) {
-    try {
-        callback();
-    } catch (error) {
-        console.error("An unexpected error occurred:", error);
-        appendMessage("Oops, something went wrong! Please try again.", "ai");
-    }
+// Fungsi untuk menangani semua error, termasuk yang asynchronous
+function handleErrors(callback, errorHandler) {
+    return async function (...args) {
+        try {
+            await callback(...args);  // Memastikan mendukung async function
+        } catch (error) {
+            console.error("An unexpected error occurred:", {
+                message: error.message, // Pesan error
+                stack: error.stack,     // Stack trace untuk debugging
+                timestamp: new Date().toISOString() // Waktu error terjadi
+            });
+
+            // Jika ada custom error handler, gunakan itu, jika tidak, tampilkan pesan default
+            if (errorHandler) {
+                errorHandler(error);
+            } else {
+                appendMessage("Oops, something went wrong! Please try again.", "ai");
+            }
+        }
+    };
 }
+
 
 // Deteksi bahasa yang diperluas berdasarkan kata umum dan tidak umum
 function detectLanguage(text) {
@@ -238,15 +251,30 @@ function calculateSentenceMath(sentence) {
 }
 
 // Fungsi untuk menghitung kemiripan menggunakan Jaccard Index
-function jaccardSimilarity(question1, question2) {
-    const set1 = new Set(question1.toLowerCase().split(" "));
-    const set2 = new Set(question2.toLowerCase().split(" "));
-
-    const intersection = [...set1].filter(word => set2.has(word)).length;
-    const union = new Set([...set1, ...set2]).size;
-
-    return union === 0 ? 0 : intersection / union; // Menghindari pembagian dengan nol
+function cleanText(text) {
+    return text.toLowerCase().replace(/[^\w\s]/gi, ''); // Menghapus tanda baca
 }
+
+function jaccardIndex(question1, question2) {
+    const set1 = new Set(cleanText(question1).split(' '));
+    const set2 = new Set(cleanText(question2).split(' '));
+
+    const intersection = new Set([...set1].filter(word => set2.has(word)));
+    const union = new Set([...set1, ...set2]);
+
+    return intersection.size / union.size;
+}
+
+function jaccardSimilarity(str1, str2) {
+    const set1 = new Set(str1.split(' '));
+    const set2 = new Set(str2.split(' '));
+
+    const intersection = new Set([...set1].filter(x => set2.has(x)));
+    const union = new Set([...set1, ...set2]);
+
+    return intersection.size / union.size;
+}
+
 
 async function fetchAnswers(question) {
     const jsonFiles = ['db1.json', 'db2.json', 'db3.json', 'db4.json', 'db5.json'];
