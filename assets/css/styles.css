@@ -32,6 +32,7 @@ h1 {
 .input-container {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 input[type="text"] {
@@ -101,4 +102,47 @@ button:hover {
     background: #d3d3d3;
 }
 
+.info-text {
+    margin-top: 10px;
+    text-align: center;
+    color: #666; /* Warna abu-abu untuk teks informasi */
+}
 
+.footer {
+    background-color: #f1f1f1; /* Warna latar belakang footer */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc; /* Garis batas atas footer */
+    position: relative; /* Agar footer tetap di bawah */
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer a {
+    color: #007BFF; /* Warna link */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #007BFF; /* Warna ikon media sosial */
+    font-size: 20px; /* Ukuran ikon */
+    transition: color 0.3s; /* Transisi warna */
+}
+
+.social-media a:hover {
+    color: #0056b3; /* Warna lebih gelap saat hover */
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Chatbot</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
 </head>
 <body>
     <div class="container">
@@ -15,9 +16,25 @@
             <button type="submit">Kirim</button>
         </form>
         <div id="loading" class="loading" style="display: none;">Mengetik...</div>
+        <p class="info-text">Cortex dapat membuat kesalahan. Periksa info penting.</p>
         <ul id="question-list" class="question-list"></ul>
     </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 AI Chatbot. Semua hak dilindungi.</p>
+            <p>Hubungi kami: <a href="mailto:support@aichatbot.com">support@aichatbot.com</a></p>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
     <script src="assets/js/ai_logic.js"></script>
+    <script src="assets/js/close_page.js"></script>
     
 </body>
 </html>
