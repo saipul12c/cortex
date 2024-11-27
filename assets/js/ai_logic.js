@@ -6,52 +6,26 @@ let canSubmit = true;
 
 // Menyimpan data sesi
 let sessionData = {
-    location: null,
-    deviceBrand: null,
-    internetConnection: null,
+    location: "Location Unavailable", // Default nilai lokasi
+    deviceBrand: "Unknown Device", // Default nilai perangkat
+    internetConnection: "Unknown Connection", // Default nilai koneksi
     questions: [],
     currentTime: null // Menyimpan waktu saat ini
 };
 
 // Fungsi untuk mendapatkan informasi perangkat pengguna
 function getDeviceInfo() {
-    try {
-        const userAgent = navigator.userAgent;
-        if (/Android/i.test(userAgent)) {
-            sessionData.deviceBrand = "Android Device";
-        } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
-            sessionData.deviceBrand = "iOS Device";
-        } else if (/Windows/i.test(userAgent)) {
-            sessionData.deviceBrand = "Windows Device";
-        } else if (/Mac/i.test(userAgent)) {
-            sessionData.deviceBrand = "Mac Device";
-        } else {
-            sessionData.deviceBrand = "Unknown Device";
-        }
-        sessionData.internetConnection = navigator.connection ? navigator.connection.effectiveType : "Unknown Connection";
-    } catch (error) {
-        console.error("Error getting device info:", error);
-        sessionData.deviceBrand = "Device Info Unavailable";
-        sessionData.internetConnection = "Unknown Connection";
+    const userAgent = navigator.userAgent;
+    if (/Android/i.test(userAgent)) {
+        sessionData.deviceBrand = "Android Device";
+    } else if (/iPhone|iPad|iPod/i.test(userAgent)) {
+        sessionData.deviceBrand = "iOS Device";
+    } else if (/Windows/i.test(userAgent)) {
+        sessionData.deviceBrand = "Windows Device";
+    } else if (/Mac/i.test(userAgent)) {
+        sessionData.deviceBrand = "Mac Device";
     }
-}
-
-// Fungsi untuk mendapatkan lokasi pengguna menggunakan Geolocation API
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-            (position) => {
-                const { latitude, longitude } = position.coords;
-                sessionData.location = `Lat: ${latitude}, Long: ${longitude}`;
-            },
-            (error) => {
-                sessionData.location = "Location Unavailable";
-                console.error("Error getting location:", error);
-            }
-        );
-    } else {
-        sessionData.location = "Geolocation Not Supported";
-    }
+    sessionData.internetConnection = navigator.connection ? navigator.connection.effectiveType : "Unknown Connection";
 }
 
 // Fungsi untuk mendapatkan waktu saat ini
@@ -117,54 +91,6 @@ function handleErrors(callback, errorHandler) {
             }
         }
     };
-}
-
-
-// Deteksi bahasa yang diperluas berdasarkan kata umum dan tidak umum
-function detectLanguage(text) {
-    const indonesianWords = [
-        "dan", "yang", "di", "dari", "adalah", "kamu", "ini", "itu", "saya", "bisa", "dengan", "akan", "untuk", "kami",
-        "tidak", "sudah", "pada", "jika", "sebagai", "atau", "lebih", "dalam", "karena", "tersebut", "berkata", "mereka",
-        "hanya", "antara", "orang", "masih", "harus", "menjadi", "banyak", "kemudian", "belum", "setelah", "namun", "sekali",
-        "tentang", "pernah", "dimana", "bagaimana", "mengapa", "apakah", "mungkin", "segera", "beberapa", "selalu", "terjadi",
-        "menyebutkan", "mengatakan", "menyampaikan", "menjelaskan", "memahami", "menilai", "menghadapi", "menggunakan", "mempertimbangkan",
-        "kerja", "tinggi", "pendidikan", "keluarga", "anak", "perusahaan", "proyek", "masyarakat", "buku", "internet", "komputer",
-        "data", "belajar", "memutuskan", "kemajuan", "pengetahuan", "peluang", "tantangan", "manusia", "kebijakan", "usaha", 
-        "penelitian", "produk", "penemuan", "perangkat", "jaringan", "sistem", "pengguna", "kebutuhan", "penilaian", "kualitas",
-        "bisnis", "ekonomi", "budaya", "perubahan", "lingkungan", "teknologi", "informasi", "inovasi", "transportasi", "keamanan", 
-        "kesehatan", "pendapatan", "pengembangan", "program", "penyedia", "layanan", "pengaruh", "pelaksanaan", "tujuan", "pengelolaan",
-        "kehidupan", "pengalaman", "keputusan", "kepemimpinan", "manajemen", "strategi", "visi", "misi", "kesempatan", "kemitraan", 
-        "pengamatan", "pengukuran", "penilaian", "kesulitan", "prestasi", "tantangan", "analisis", "kreativitas", "efisiensi", "kolaborasi"
-    ];
-
-    const englishWords = [
-        "the", "is", "in", "of", "and", "you", "this", "that", "i", "can", "with", "will", "for", "we",
-        "not", "are", "on", "to", "was", "but", "by", "from", "about", "would", "could", "there", "which", "their", "more", 
-        "between", "after", "before", "still", "must", "many", "since", "until", "however", "always", "sometimes", "mention",
-        "explain", "describe", "understand", "consider", "might", "should", "where", "how", "why", "because", "people", 
-        "happen", "know", "face", "use", "refer", "address", "evaluate", "work", "high", "education", "family", "child", 
-        "company", "project", "community", "book", "internet", "computer", "data", "study", "decide", "progress", "knowledge",
-        "opportunity", "challenge", "human", "policy", "effort", "research", "product", "invention", "device", "network", 
-        "system", "user", "need", "evaluation", "quality", "business", "economy", "culture", "change", "environment", "technology",
-        "information", "innovation", "transportation", "security", "health", "income", "development", "program", "provider", 
-        "service", "impact", "implementation", "goal", "management", "life", "experience", "decision", "leadership", "strategy", 
-        "vision", "mission", "opportunity", "partnership", "observation", "measurement", "evaluation", "difficulty", "achievement",
-        "analysis", "creativity", "efficiency", "collaboration"
-    ];
-
-    let indonesianCount = 0;
-    let englishCount = 0;
-    const words = text.toLowerCase().split(" ");
-
-    words.forEach((word) => {
-        if (indonesianWords.includes(word)) {
-            indonesianCount++;
-        } else if (englishWords.includes(word)) {
-            englishCount++;
-        }
-    });
-
-    return indonesianCount > englishCount ? "indonesian" : "english";
 }
 
 // Fungsi untuk mendeteksi dan melakukan perhitungan matematika sederhana
@@ -255,19 +181,9 @@ function cleanText(text) {
     return text.toLowerCase().replace(/[^\w\s]/gi, ''); // Menghapus tanda baca
 }
 
-function jaccardIndex(question1, question2) {
-    const set1 = new Set(cleanText(question1).split(' '));
-    const set2 = new Set(cleanText(question2).split(' '));
-
-    const intersection = new Set([...set1].filter(word => set2.has(word)));
-    const union = new Set([...set1, ...set2]);
-
-    return intersection.size / union.size;
-}
-
 function jaccardSimilarity(str1, str2) {
-    const set1 = new Set(str1.split(' '));
-    const set2 = new Set(str2.split(' '));
+    const set1 = new Set(cleanText(str1).split(' '));
+    const set2 = new Set(cleanText(str2).split(' '));
 
     const intersection = new Set([...set1].filter(x => set2.has(x)));
     const union = new Set([...set1, ...set2]);
@@ -275,45 +191,17 @@ function jaccardSimilarity(str1, str2) {
     return intersection.size / union.size;
 }
 
+// Simulasi pengambilan jawaban dari database lokal
+function fetchAnswers(question) {
+    const responses = [
+        { question: "Apa itu JavaScript?", answer: "JavaScript adalah bahasa pemrograman yang digunakan untuk pengembangan web." },
+        { question: "Bagaimana cara belajar pemrograman?", answer: "Mulailah dengan memahami dasar-dasar dan praktik secara konsisten." },
+        // Tambahkan lebih banyak jawaban sesuai kebutuhan
+    ];
 
-async function fetchAnswers(question) {
-    const jsonFiles = ['db1.json', 'db2.json', 'db3.json', 'db4.json', 'db5.json'];
-    const responses = [];
     let highestSimilarity = 0;
     let bestMatch = null;
 
-    const fetchJsonFile = async (file) => {
-        try {
-            const response = await fetch(`/database/${file}`);
-            if (!response.ok) {
-                throw new Error(`Network response was not ok for ${file}: ${response.statusText}`);
-            }
-            const data = await response.json();
-            return data;
-        } catch (error) {
-            console.error(`Error fetching ${file}:`, error.message);
-            return [];
-        }
-    };
-
-    const fetchPromises = jsonFiles.map(fetchJsonFile);
-
-    try {
-        const allResponses = await Promise.all(fetchPromises);
-
-        allResponses.forEach(response => {
-            if (Array.isArray(response)) {
-                responses.push(...response);
-            } else {
-                console.warn(`Expected array but got: ${typeof response}`);
-            }
-        });
-
-    } catch (error) {
-        console.error('Error fetching JSON files:', error);
-    }
-
-    // Mencari jawaban dengan kemiripan tertinggi
     responses.forEach(answer => {
         const similarity = jaccardSimilarity(question, answer.question);
         if (similarity > highestSimilarity) {
@@ -357,6 +245,7 @@ function generateHumanizedResponse(foundAnswer, language, feedback, userName = "
     }
 
     // Menentukan respons berdasarkan bahasa, jawaban yang ditemukan, dan feedback
+
     if (language === "indonesian") {
         // Sapaan berdasarkan waktu dan nama pengguna
         let greeting = `${getTimeGreeting()}${userName ? `, ${userName}` : ""}! `;
@@ -384,7 +273,7 @@ function generateHumanizedResponse(foundAnswer, language, feedback, userName = "
         }
 
     } else {
-        // English version
+        // Versi Bahasa Inggris
         let greeting = `${getTimeGreeting()}${userName ? `, ${userName}` : ""}! `;
 
         if (foundAnswer) {
@@ -472,7 +361,7 @@ document.getElementById("question-form").addEventListener("submit", async (event
 
     // Cek kata terlarang
     if (checkForbiddenWords(question)) {
-        appendMessage("Pertanyaan Anda mengandung konten yang tidak pantas. Tolong ajukan pertanyaan lain.", "ai");
+        appendMessage("Pert anyaan Anda mengandung konten yang tidak pantas. Tolong ajukan pertanyaan lain.", "ai");
         canSubmit = true;
         return;
     }
@@ -508,8 +397,8 @@ document.getElementById("question-form").addEventListener("submit", async (event
     showLoading(); // Tampilkan loading
     await showTypingEffect(); // Efek mengetik
 
-    // Ambil jawaban dari database JSON berdasarkan kemiripan
-    const foundAnswer = await fetchAnswers(question);
+    // Ambil jawaban dari database lokal berdasarkan kemiripan
+    const foundAnswer = fetchAnswers(question);
 
     if (!foundAnswer) {
         const errorMessage = language === "indonesian"
@@ -527,9 +416,8 @@ document.getElementById("question-form").addEventListener("submit", async (event
     canSubmit = true; // Izinkan pengguna mengirim pertanyaan baru
 });
 
-// Panggil saat halaman dimuat untuk mendapatkan lokasi dan info perangkat
+// Panggil saat halaman dimuat untuk mendapatkan info perangkat
 window.onload = function () {
     getDeviceInfo();
-    getLocation();
     updateCurrentTime(); // Memperbarui waktu saat halaman dimuat
 };
